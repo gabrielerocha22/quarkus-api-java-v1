@@ -1,6 +1,6 @@
 <p align="center">
   <img alt="Icon" src="https://design.jboss.org/quarkus/logo/final/PNG/quarkus_logo_horizontal_rgb_600px_default.png" width="400"/>
-</p>
+</p></p>
 
 # CRUD - JAVA - QUARKUS 
 - Usado para consultas, o crud, acrônimo para Create, Read, Update e Delete (apagar), é utilizado para realizar operações básicas para criar e gerenciar elementos de dados persistentes.
