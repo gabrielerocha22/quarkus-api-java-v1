@@ -25,11 +25,11 @@
 - 201 : Para requisições POST bem sucedidas, quando um novo registro é cadastrado;
 - 204 : Para requisições PUT e DELETE bem sucedidas, quando a operação foi realizada com sucesso mas não precisamos retornar nenhum dado adicional para o cliente.
 
-# O padrão de arquitetura de software MVC foi utilizado no projeto, modelo responsável pelo acesso e manipulação dos dados da aplicação. É nela que está as consultas do banco de dados (H2) e acesso a API. 
+## O padrão de arquitetura de software MVC foi utilizado no projeto, modelo responsável pelo acesso e manipulação dos dados da aplicação. É nela que está as consultas do banco de dados (H2) e acesso a API. 
 Do padrão MVC foi utilizado o Controller, Service e Entity.
-Classe do Controller : CustomerController
-Classe do Service : CustomerService
-Classe da Entity: Entity
+- Classe do Controller : CustomerController
+- Classe do Service : CustomerService
+- Classe da Entity: Entity
 
 ---------------------------------------------------------------------------------------
 
