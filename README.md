@@ -1,31 +1,31 @@
 <p align="center">
-  <img alt="Icon" src="https://design.jboss.org/quarkus/logo/final/PNG/quarkus_logo_horizontal_rgb_600px_default.png" width="55"/>
+  <img alt="Icon" src="https://design.jboss.org/quarkus/logo/final/PNG/quarkus_logo_horizontal_rgb_600px_default.png" width="400"/>
 </p>
 
-#CRUD - JAVA - QUARKUS 
+# CRUD - JAVA - QUARKUS 
 - Usado para consultas, o crud, acrônimo para Create, Read, Update e Delete (apagar), é utilizado para realizar operações básicas para criar e gerenciar elementos de dados persistentes.
 
-#Ferramentas utilizadas no CRUD
+# Ferramentas utilizadas no CRUD
 - Framework Quarkus
 - Data H2
 - API REST
 - Postman para testes
 ------------------------------------------------------------------------------
-#Utilizando API
+# Utilizando API
 - O que é API (API REST):
 É um conjunto de rotinas e padrões que facilitam a comunicação e troca de informações entre sistemas, utilizada para facilitar a integração entre diferentes sites e aplicativos. A utilizada no projeto, a API REST, dentre os requisitos, o mais comum é ter as solicitações gerenciadas pelo protocolo HTTP.
 
-#VERBOS HTTP UTLIZADOS:
+# VERBOS HTTP UTLIZADOS:
 - GET
 - POST
 - PUT
 - DELETE
 
-#Além dos verbos utilizados, no projeto foi utilizado dois códigos de status:
+# Além dos verbos utilizados, no projeto foi utilizado dois códigos de status:
 - 201 : Para requisições POST bem sucedidas, quando um novo registro é cadastrado;
 - 204 : Para requisições PUT e DELETE bem sucedidas, quando a operação foi realizada com sucesso mas não precisamos retornar nenhum dado adicional para o cliente.
 
-#O padrão de arquitetura de software MVC foi utilizado no projeto, modelo responsável pelo acesso e manipulação dos dados da aplicação. É nela que está as consultas do banco de dados (H2) e acesso a API. 
+# O padrão de arquitetura de software MVC foi utilizado no projeto, modelo responsável pelo acesso e manipulação dos dados da aplicação. É nela que está as consultas do banco de dados (H2) e acesso a API. 
 Do padrão MVC foi utilizado o Controller, Service e Entity.
 Classe do Controller : CustomerController
 Classe do Service : CustomerService
