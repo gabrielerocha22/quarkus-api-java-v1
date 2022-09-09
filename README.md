@@ -1,6 +1,6 @@
 <p align="center">
   <img alt="Icon" src="https://design.jboss.org/quarkus/logo/final/PNG/quarkus_logo_horizontal_rgb_600px_default.png" width="400"/>
-</p></p>
+</p>
 
 # CRUD - JAVA - QUARKUS 
 - Usado para consultas, o crud, acrônimo para Create, Read, Update e Delete (apagar), é utilizado para realizar operações básicas para criar e gerenciar elementos de dados persistentes.
@@ -31,6 +31,14 @@ Do padrão MVC foi utilizado o Controller, Service e Entity.
 - Classe do Service : CustomerService
 - Classe da Entity: Entity
 
+---------------------------------------------------------------------------------------
+<p align="center">
+  <img alt="Icon" src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg" width="400"/>
+</p>
+#<h3>Houve alterações no projeto, passando a ser utilizando o PostgreSQL e foi gerada a imagem docker. </h3>
+- As alterações do banco de dados foram feitas no arquivo application.properties e foram colocadas novas dependências do PostgreSQL no arquivo POM.
+- Após serem colocadas as dependências do Docker no POM, também houveram configurações simples no arquivo application.properties. Apó isso, a imagem foi gerada pelo comando:
+mvn package -DskipTests
 ---------------------------------------------------------------------------------------
 
 
