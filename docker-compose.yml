@@ -4,16 +4,15 @@ services:
   quarkus-service:    
     build: 
       context: . 
-      dockerfile: src/main/Docker/Docker.native
+      dockerfile: src/main/Docker/Dockerfile.native
     image: docker-database-1:native
     mem_limit: 128m
     environment:
-      - QUARKUS_DATASOURCE_URL=jdbc:postgresql://localhost:5432/quarkus-docker
+      - QUARKUS_DATASOURCE_URL=jdbc:postgresql://localhost:5432/quarkusDocker
     ports:
       - "8080:8080"
     depends_on:
-      quarkus-db:
-        condition: service_healthy
+      - quarkus-db
     networks:
       - quarkus
       
