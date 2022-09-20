@@ -37,8 +37,6 @@ Do padrão MVC foi utilizado o Controller, Service e Entity.
 </p>
 <h3>Houve alterações no projeto, passando a ser utilizando o PostgreSQL e foi gerada a imagem docker. </h3>
 - As alterações do banco de dados foram feitas no arquivo application.properties e foram colocadas novas dependências do PostgreSQL no arquivo POM.
-- Após serem colocadas as dependências do Docker no POM, também houveram configurações simples no arquivo application.properties. Apó isso, a imagem foi gerada pelo comando:
-mvn package -DskipTests
 
 ---------------------------------------------------------------------------------------
 
